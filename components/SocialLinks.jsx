@@ -25,15 +25,6 @@ const SocialLinks = () => {
       href: "https://github.com/floresthomas",
     },
     {
-      id: 3,
-      child: (
-        <>
-          Instagram <AiOutlineInstagram size={30} />
-        </>
-      ),
-      href: "",
-    },
-    {
       id: 4,
       child: (
         <>

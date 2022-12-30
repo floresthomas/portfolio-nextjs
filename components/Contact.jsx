@@ -76,13 +76,6 @@ const Contact = () => {
             <FaGithub className="text-4xl sm:text-6xl mx-2 hover:text-gray-700 duration-300" />
           </a>
           <a
-            href="https://www.instagram.com/ezequielf_14/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <AiOutlineInstagram className="text-4xl mx-2 sm:text-6xl hover:text-orange-500 duration-300" />
-          </a>
-          <a
             href="https://drive.google.com/file/d/1iC24qQu7l-nEPbKgdHhxZ8sfHqmEf0QO/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
