@@ -4,6 +4,7 @@ import Main from "../components/Main";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import SocialLinks from "../components/SocialLinks";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
       <SocialLinks />
       <Experience />
       <Projects />
+      <div className="lg:hidden">
+        <Contact />
+      </div>
     </div>
   );
 }

@@ -14,7 +14,7 @@ const Main = () => {
           <h1 className="py-4 text-white">
             Hi, my name is Thomas Ezequiel Flores
           </h1>
-          <h1 className="py-2 justify-center text-[#094157] hidden sm:flex ">
+          <h1 className="py-2 justify-center text-[#094157]">
             <Typewriter
               options={{
                 strings: ["A full stack developer"],

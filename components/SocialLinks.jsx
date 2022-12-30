@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
@@ -28,7 +28,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Instagram <AiOutlineInstagram size={30} />
         </>
       ),
       href: "",
@@ -40,9 +40,8 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "",
+      href: "https://drive.google.com/file/d/1iC24qQu7l-nEPbKgdHhxZ8sfHqmEf0QO/view?usp=sharing",
       style: "rounded-tr-md",
-      download: true,
     },
   ];
 
