@@ -4,47 +4,6 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Contact = () => {
-  const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          Linkedin <FaLinkedin size={30} />
-        </>
-      ),
-      href: "https://www.linkedin.com/in/floresthomas/",
-      style: "rounded-tr-md",
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          Github <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/floresthomas",
-    },
-    {
-      id: 3,
-      child: (
-        <>
-          Instagram <AiOutlineInstagram size={30} />
-        </>
-      ),
-      href: "",
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "https://drive.google.com/file/d/1iC24qQu7l-nEPbKgdHhxZ8sfHqmEf0QO/view?usp=sharing",
-      style: "rounded-tr-md",
-    },
-  ];
-
   return (
     <div
       id="contact"
