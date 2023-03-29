@@ -3,6 +3,7 @@ import Image from "next/image";
 import pokemon from "../public/assets/images/pokemon.png";
 import kalu from "../public/assets/images/kalu.png";
 import videogames from "../public/assets/images/videogames.png";
+import ecommerce from "../public/assets/images/ecommerce.png";
 
 const Projects = () => {
   return (
@@ -92,6 +93,35 @@ const Projects = () => {
               <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                 <a
                   href="https://github.com/floresthomas/PI-Videogames"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="shadow-md shadow-gray-600 rounded-lg">
+            <Image
+              className="rounded-md duration-200 hover:scale-105"
+              src={ecommerce}
+              alt="/"
+              width={500}
+              height={100}
+            />
+            <div className="flex items-center justify-center">
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Deploy
+                </a>
+              </button>
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href="https://github.com/floresthomas/ecommerce-client"
                   target="_blank"
                   rel="noreferrer"
                 >
