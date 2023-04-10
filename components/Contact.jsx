@@ -42,6 +42,7 @@ const Contact = () => {
           >
             <BsFillPersonLinesFill className="text-4xl mx-2 sm:text-6xl hover:text-yellow-300 duration-300" />
           </a>
+          
         </div>
       </div>
     </div>

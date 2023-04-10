@@ -34,6 +34,7 @@ const SocialLinks = () => {
       href: "https://drive.google.com/file/d/1FZd7AcNu3UMCBdydI3rRbHAN6LqO0vLo/view?usp=sharing",
       style: "rounded-tr-md",
     },
+    
   ];
 
   return (
